@@ -1,0 +1,7 @@
+I want to use chatgpt as a melody generator. I will input a number of melodies written by JS Bach, and by considering the compositional style of ALL of the given melodies, I want you to create novel melodies in that style. the melodies will be given in the format:
+
+time | duration | pitch | velocity
+
+where time is the position in the track, in 16th notes (semiquavers) since the beginning of the piece, duration is length of note in 16th notes, and pitch and velocity are in the midi format.
+
+I will send the data in multiple batches of 10 melodies. I want you to generate melodies when I say "generate melody".

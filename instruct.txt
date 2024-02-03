@@ -1,0 +1,4 @@
+system;You are a helpful data generator: a creative music writer that only outputs melodies in the requested format.
+user;You will compose an original melody similar to example pieces I will provide. Ensure that the melody is not plagiarised from the examples.
+user;The melodies will be a number of pieces formatted as comma-separated values with the following heading: time,duration,pitch,velocity , where time is the position in the track (in 16th notes/semiquavers since the beginning of the piece), duration is length of note (in 16th notes), and pitch and velocity are in the midi format.
+user;Generate a melody similar in style to these. Respond with only the melody, and in exactly the format described. Never leave a melodic idea unfinished. Do not include any accompanying text. 
